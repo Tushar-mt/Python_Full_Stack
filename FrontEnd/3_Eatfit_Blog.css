@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.project{
+    .navbar{
+        a{
+            margin-left: 30px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        #home{
+            margin-left: 550px;
+        }
+        #instagram{
+            margin-left: 400px;
+        }
+    }
+    .title{
+        font-size: 50px;
+        margin-left: 550px;
+        margin-top: 10px;
+        #Eatfit{
+            text-decoration: none;
+        }
+    }
+    .sub-navbar{
+        border-bottom: 1px solid black;
+        padding: 5px;
+        margin-top: 20px;
+        font-size: 20px;
+        a{
+            margin-left: 25px;
+            text-decoration: none;
+        }
+        #Featured{
+            margin-left: 470px;
+        }
+    }
+    .card{
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 500px;
+        border: 1px solid black;
+        width: 400px;
+        img{
+            height: 300px;
+            width: 400px;
+        }
+        #date{
+            text-align: justify;
+            border-top: 1px solid red;
+            padding: 10px;
+        }
+        a{
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+    }
+    .footer{
+        background-color: chartreuse;
+        text-align: center;
+        margin-top: 20px;
+        h1{
+            padding: 10px;
+        }
+        a{
+            font-size: 40px;
+            margin-left: 10px;
+        }
+    }     
+} 
