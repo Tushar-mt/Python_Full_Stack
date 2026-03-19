@@ -64,9 +64,7 @@ SnapFolio is a modern, multi-device portfolio template designed to showcase a UI
 
 ## 📬 Connect with Me
 
-- 💼 [LinkedIn](https://linkedin.com/in/your-profile)
-- 🐙 [GitHub](https://github.com/your-username)
-
+- 💼 [LinkedIn](https://www.linkedin.com/in/tushar-aradhyamath/)
 ---
 
 ## 📈 What's Next
