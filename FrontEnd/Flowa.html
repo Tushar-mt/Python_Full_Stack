@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    padding: 0%;
+    margin: 0%;
+} 
+
+.container{
+background-color: grey;
+    .navbar{
+        display: flex;
+        justify-content: space-around;  
+        font-size: 20px;
+        text-transform: capitalize;
+        height: 8vh;  
+        align-items: center;
+        .logo{
+            a{
+                text-decoration: none;
+                font-size: 34px;   
+            }
+        }
+        .elements{
+            display: flex;
+            gap: 25px;  
+            a{
+                text-decoration: none;
+                
+            }
+        }
+    }
+
+    .main{
+        display: flex; 
+        gap: 70px;
+        height: 90vh;
+        align-items: center;
+        justify-content: center;
+        .text{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;  
+            
+            width: 30%;  
+            padding: 60px;
+            border-radius: 30px;
+            h3{
+                color: goldenrod;
+            }
+            h1{
+                span{
+                    color: goldenrod;
+                }
+            }
+            p{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }  
+
+            .btns{
+                button{
+                    padding: 10px 18px;
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    background-color: goldenrod;
+                    color: antiquewhite;
+                }
+            }
+        }
+
+        .img{
+            img{
+                width: 600px;
+                height: 600px;
+                border-radius: 100%;
+            }
+        }
+    }
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navbar">
+
+            <div class="logo">
+                <a href="">flowa</a>
+            </div>
+
+            <div class="elements">
+                <a href="">home</a>
+                <a href="">about</a>
+                <a href="">services</a>
+                <a href="">resume</a>
+                <a href="">portfolio</a>
+                <a href="">blog</a>
+                <a href="">contact</a>
+            </div>  
+
+        </div>
+
+        <div class="main">
+
+            <div class="text">
+                <h3>Hello!</h3>
+                <h1>I'm Professional Web Designer & <span>Wordpress Developer</span></h1>  
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+                <div class="btns">
+                    <button>hire me</button>
+                    <button>download cv</button>
+                </div>
+
+            </div>
+
+            <div class="img">
+                <img src="https://media.istockphoto.com/id/1188562823/photo/portrait-beautiful-smiling-indian-girl-with-arms-crossed.webp?a=1&b=1&s=612x612&w=0&k=20&c=o4xISyWxBKBpGZPLcC9rR4tDGDEE-zoLETb4Lk83Zfc=" alt="">
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
